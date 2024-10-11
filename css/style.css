@@ -193,10 +193,10 @@ h6 {
 .team-title {
   display: flex;
   gap: 24px;
-  width: calc((100%-72) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .team-title:first-child {
-  width: calc((100%-72) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .title-team {
@@ -305,9 +305,6 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.footer-container {
   display: inline-block;
   margin-bottom: 16px;
 }
