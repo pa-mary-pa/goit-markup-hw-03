@@ -193,10 +193,6 @@ h6 {
 .team-title {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-}
-.team-title:first-child {
-  width: calc((100% - 72px) / 4);
 }
 
 .title-team {
