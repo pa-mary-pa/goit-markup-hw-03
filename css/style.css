@@ -195,6 +195,9 @@ h6 {
   gap: 24px;
   width: calc((100%-72) / 4);
 }
+.team-title:first-child {
+  width: calc((100%-72) / 4);
+}
 
 .title-team {
   font-weight: 700;
@@ -303,7 +306,8 @@ h6 {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo .logo-footer {
+
+.footer-container {
   display: inline-block;
   margin-bottom: 16px;
 }
